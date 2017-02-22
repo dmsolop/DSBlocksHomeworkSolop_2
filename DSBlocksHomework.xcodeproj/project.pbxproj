@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0742761E5C99010094D951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742751E5C99010094D951 /* main.m */; };
+		2C0742B41E5DCAF10094D951 /* DSDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742AB1E5DCAF10094D951 /* DSDoctor.m */; };
+		2C0742B81E5DCAF10094D951 /* NSArray+DSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742B31E5DCAF10094D951 /* NSArray+DSExtension.m */; };
+		2C0742BB1E5DD3220094D951 /* DSPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742BA1E5DD3220094D951 /* DSPatient.m */; };
+		2C0742BE1E5DD3420094D951 /* DSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742BD1E5DD3420094D951 /* DSStudent.m */; };
+		2C0742C11E5DD3510094D951 /* DSWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742C01E5DD3510094D951 /* DSWorker.m */; };
+		2C0742C41E5DDAFD0094D951 /* DSPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742C31E5DDAFD0094D951 /* DSPropertyManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C0742701E5C99010094D951 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C0742721E5C99010094D951 /* DSBlocksHomework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSBlocksHomework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0742751E5C99010094D951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C0742AA1E5DCAF10094D951 /* DSDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDoctor.h; sourceTree = "<group>"; };
+		2C0742AB1E5DCAF10094D951 /* DSDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDoctor.m; sourceTree = "<group>"; };
+		2C0742B21E5DCAF10094D951 /* NSArray+DSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DSExtension.h"; sourceTree = "<group>"; };
+		2C0742B31E5DCAF10094D951 /* NSArray+DSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DSExtension.m"; sourceTree = "<group>"; };
+		2C0742B91E5DD3220094D951 /* DSPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPatient.h; sourceTree = "<group>"; };
+		2C0742BA1E5DD3220094D951 /* DSPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPatient.m; sourceTree = "<group>"; };
+		2C0742BC1E5DD3420094D951 /* DSStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSStudent.h; sourceTree = "<group>"; };
+		2C0742BD1E5DD3420094D951 /* DSStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSStudent.m; sourceTree = "<group>"; };
+		2C0742BF1E5DD3510094D951 /* DSWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWorker.h; sourceTree = "<group>"; };
+		2C0742C01E5DD3510094D951 /* DSWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWorker.m; sourceTree = "<group>"; };
+		2C0742C21E5DDAFD0094D951 /* DSPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPropertyManager.h; sourceTree = "<group>"; };
+		2C0742C31E5DDAFD0094D951 /* DSPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPropertyManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C07426F1E5C99010094D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0742691E5C99010094D951 = {
+			isa = PBXGroup;
+			children = (
+				2C0742741E5C99010094D951 /* DSBlocksHomework */,
+				2C0742731E5C99010094D951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C0742731E5C99010094D951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0742721E5C99010094D951 /* DSBlocksHomework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0742741E5C99010094D951 /* DSBlocksHomework */ = {
+			isa = PBXGroup;
+			children = (
+				2C0742751E5C99010094D951 /* main.m */,
+				2C0742C21E5DDAFD0094D951 /* DSPropertyManager.h */,
+				2C0742C31E5DDAFD0094D951 /* DSPropertyManager.m */,
+				2C0742A91E5DCAF10094D951 /* Classes */,
+			);
+			path = DSBlocksHomework;
+			sourceTree = "<group>";
+		};
+		2C0742A91E5DCAF10094D951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C0742AA1E5DCAF10094D951 /* DSDoctor.h */,
+				2C0742AB1E5DCAF10094D951 /* DSDoctor.m */,
+				2C0742B91E5DD3220094D951 /* DSPatient.h */,
+				2C0742BA1E5DD3220094D951 /* DSPatient.m */,
+				2C0742BC1E5DD3420094D951 /* DSStudent.h */,
+				2C0742BD1E5DD3420094D951 /* DSStudent.m */,
+				2C0742BF1E5DD3510094D951 /* DSWorker.h */,
+				2C0742C01E5DD3510094D951 /* DSWorker.m */,
+				2C0742B21E5DCAF10094D951 /* NSArray+DSExtension.h */,
+				2C0742B31E5DCAF10094D951 /* NSArray+DSExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C0742711E5C99010094D951 /* DSBlocksHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0742791E5C99010094D951 /* Build configuration list for PBXNativeTarget "DSBlocksHomework" */;
+			buildPhases = (
+				2C07426E1E5C99010094D951 /* Sources */,
+				2C07426F1E5C99010094D951 /* Frameworks */,
+				2C0742701E5C99010094D951 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSBlocksHomework;
+			productName = DSBlocksHomework;
+			productReference = 2C0742721E5C99010094D951 /* DSBlocksHomework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C07426A1E5C99010094D951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DS;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dimon Solop";
+				TargetAttributes = {
+					2C0742711E5C99010094D951 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C07426D1E5C99010094D951 /* Build configuration list for PBXProject "DSBlocksHomework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C0742691E5C99010094D951;
+			productRefGroup = 2C0742731E5C99010094D951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C0742711E5C99010094D951 /* DSBlocksHomework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C07426E1E5C99010094D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0742B41E5DCAF10094D951 /* DSDoctor.m in Sources */,
+				2C0742761E5C99010094D951 /* main.m in Sources */,
+				2C0742BB1E5DD3220094D951 /* DSPatient.m in Sources */,
+				2C0742B81E5DCAF10094D951 /* NSArray+DSExtension.m in Sources */,
+				2C0742C11E5DD3510094D951 /* DSWorker.m in Sources */,
+				2C0742BE1E5DD3420094D951 /* DSStudent.m in Sources */,
+				2C0742C41E5DDAFD0094D951 /* DSPropertyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C0742771E5C99010094D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C0742781E5C99010094D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C07427A1E5C99010094D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C07427B1E5C99010094D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C07426D1E5C99010094D951 /* Build configuration list for PBXProject "DSBlocksHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0742771E5C99010094D951 /* Debug */,
+				2C0742781E5C99010094D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0742791E5C99010094D951 /* Build configuration list for PBXNativeTarget "DSBlocksHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C07427A1E5C99010094D951 /* Debug */,
+				2C07427B1E5C99010094D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C07426A1E5C99010094D951 /* Project object */;
+}
