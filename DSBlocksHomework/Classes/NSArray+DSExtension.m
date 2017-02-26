@@ -12,28 +12,32 @@
 #import "DSWorker.h"
 #import "DSPatient.h"
 #import "DSDoctor.h"
+#import "DSHospital.h"
 
 @implementation NSArray (DSExtension)
 
-- (NSArray *)makeArray {
+- (NSArray *)createArray {
     DSPropertyManager *manager = [DSPropertyManager new];
     NSMutableArray* arrayTemp = [NSMutableArray array];
-    
-    for (int i = 0; i < 3; i++) {
-        [arrayTemp addObject:[[DSPatient alloc] initWithName:manager.name]];
-        [arrayTemp addObject:[[DSWorker alloc] initWithName:manager.name]];
-        [arrayTemp addObject:[[DSStudent alloc] initWithName:manager.name]];
+    for (int i = 0; i < 5; i++) {
+        [arrayTemp addObject:[[DSWorker alloc] initWithName:manager.name
+                                                   headache:manager.headache
+                                                 soreThroat:manager.soreThroat
+                                               inflammation:manager.inflammation]];
+        [arrayTemp addObject:[[DSStudent alloc] initWithName:manager.name
+                                                    headache:manager.headache
+                                                  soreThroat:manager.soreThroat
+                                                inflammation:manager.inflammation]];
     }
     return arrayTemp;
 }
 
-- (void) printArray:(NSArray *)array {
-    
-    for (id object in array) {
-        if ([object isKindOfClass:[DSPatient class]]){
-            if ([object iFeelGoodMyself]) {
-                [DSDoctor new]
-            }
+- (void) fluEpidemic {
+    for (DSPatient* patient in self) {
+        if (![patient iFeelGoodMyself]){
+            patient.treatmentBlock = [[[DSHospital sharedInstance] getDoctor] makeTreatmentForPetient:patient];
+            patient.treatmentBlock ();
+            [patient resultOfTreatment];
         }
     }
 }

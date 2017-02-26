@@ -11,6 +11,9 @@
 @implementation DSPropertyManager
 
 @dynamic name;
+@dynamic headache;
+@dynamic soreThroat;
+@dynamic inflammation;
 
 
 - (instancetype)init
@@ -33,6 +36,17 @@
 
 - (NSString *)name {
     return [self.arrayBaseOfName objectAtIndex:arc4random() % [self.arrayBaseOfName count]];
+}
+
+- (BOOL) headache {
+    return arc4random() % 2;
+}
+
+- (BOOL) soreThroat {
+    return arc4random() % 2;
+}
+- (BOOL) inflammation {
+    return arc4random() % 2;
 }
 
 @end

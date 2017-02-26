@@ -10,7 +10,7 @@
 
 @interface NSArray (DSExtension)
 
-- (NSArray *)makeArray;
-- (void) printArray:(NSArray *) array;
+- (NSArray *)createArray;
+- (void) fluEpidemic;
 
 @end

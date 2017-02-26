@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSArray+DSExtension.h"
 #import "DSDoctor.h"
 #import "DSPatient.h"
 #import "DSWorker.h"
@@ -14,13 +15,13 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-
-        DSDoctor *doctor = [[DSDoctor alloc]init];
   
         
-
+        NSArray *patients = [[NSArray alloc]init];
         
+        patients = [patients createArray];
         
+        [patients fluEpidemic];
         
         
     

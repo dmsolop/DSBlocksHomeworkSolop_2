@@ -14,6 +14,8 @@
 		2C0742BE1E5DD3420094D951 /* DSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742BD1E5DD3420094D951 /* DSStudent.m */; };
 		2C0742C11E5DD3510094D951 /* DSWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742C01E5DD3510094D951 /* DSWorker.m */; };
 		2C0742C41E5DDAFD0094D951 /* DSPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0742C31E5DDAFD0094D951 /* DSPropertyManager.m */; };
+		2CA3B9171E630094000D4216 /* DSHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3B9161E630094000D4216 /* DSHospital.m */; };
+		2CA3B91A1E632E0E000D4216 /* DSMedication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3B9191E632E0E000D4216 /* DSMedication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,10 @@
 		2C0742C01E5DD3510094D951 /* DSWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWorker.m; sourceTree = "<group>"; };
 		2C0742C21E5DDAFD0094D951 /* DSPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSPropertyManager.h; sourceTree = "<group>"; };
 		2C0742C31E5DDAFD0094D951 /* DSPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSPropertyManager.m; sourceTree = "<group>"; };
+		2CA3B9151E630094000D4216 /* DSHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSHospital.h; sourceTree = "<group>"; };
+		2CA3B9161E630094000D4216 /* DSHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSHospital.m; sourceTree = "<group>"; };
+		2CA3B9181E632E0E000D4216 /* DSMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMedication.h; sourceTree = "<group>"; };
+		2CA3B9191E632E0E000D4216 /* DSMedication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMedication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,12 @@
 		2C0742A91E5DCAF10094D951 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2CA3B9151E630094000D4216 /* DSHospital.h */,
+				2CA3B9161E630094000D4216 /* DSHospital.m */,
 				2C0742AA1E5DCAF10094D951 /* DSDoctor.h */,
 				2C0742AB1E5DCAF10094D951 /* DSDoctor.m */,
+				2CA3B9181E632E0E000D4216 /* DSMedication.h */,
+				2CA3B9191E632E0E000D4216 /* DSMedication.m */,
 				2C0742B91E5DD3220094D951 /* DSPatient.h */,
 				2C0742BA1E5DD3220094D951 /* DSPatient.m */,
 				2C0742BC1E5DD3420094D951 /* DSStudent.h */,
@@ -158,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA3B91A1E632E0E000D4216 /* DSMedication.m in Sources */,
 				2C0742B41E5DCAF10094D951 /* DSDoctor.m in Sources */,
 				2C0742761E5C99010094D951 /* main.m in Sources */,
+				2CA3B9171E630094000D4216 /* DSHospital.m in Sources */,
 				2C0742BB1E5DD3220094D951 /* DSPatient.m in Sources */,
 				2C0742B81E5DCAF10094D951 /* NSArray+DSExtension.m in Sources */,
 				2C0742C11E5DD3510094D951 /* DSWorker.m in Sources */,
@@ -291,6 +303,7 @@
 				2C07427B1E5C99010094D951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

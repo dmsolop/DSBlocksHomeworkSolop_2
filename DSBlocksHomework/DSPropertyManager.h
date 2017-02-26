@@ -13,5 +13,8 @@
 @property (nonatomic, copy) NSArray *arrayBaseOfName;
 
 @property (readonly) NSString *name;
+@property (readonly) BOOL headache;
+@property (readonly) BOOL soreThroat;
+@property (readonly) BOOL inflammation;
 
 @end

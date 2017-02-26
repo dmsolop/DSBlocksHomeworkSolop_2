@@ -7,15 +7,24 @@
 //
 
 #import "DSDoctor.h"
+#import "DSPatient.h"
+#import "DSHospital.h"
+#import "DSMedication.h"
 
 @implementation DSDoctor
 
-- (void) takeTreatment {
-    NSLog(@"%@ %@ take the treatment and goes home", [self class], self.name);
-}
-
-- (void) takeRest {
-    NSLog(@"%@ %@ take the rest and goes to work or studies", [self class], self.name);
+- (Treatment) makeTreatmentForPetient:(DSPatient*) patient{
+    return ^{
+        if (!patient.headache) {
+            [patient takePainkiller:[[DSMedication new] painkillers]];
+        }
+        if (!patient.soreThroat) {
+            [patient takeStrepsils:[[DSMedication new] strepsils]];
+        }
+        if (!patient.inflammation) {
+            [patient takeAntibiotiks:[[DSMedication new] antibiotiks]];
+        }
+    };
 }
 
 @end

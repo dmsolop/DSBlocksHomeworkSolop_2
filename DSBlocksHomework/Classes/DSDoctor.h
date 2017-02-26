@@ -10,13 +10,10 @@
 
 @class DSPatient;
 
-typedef BOOL (^DoctorTreatment)(DSPatient* patient);
+typedef void (^Treatment)(void);
 
 @interface DSDoctor : NSObject
 
-@property (nonatomic, copy) DoctorTreatment treatmentBlock;
-
-- (void) makeTreatmentForPetient:;
-- (void) takeRest;
+- (void(^)(void)) makeTreatmentForPetient:(DSPatient*) patient;
 
 @end
