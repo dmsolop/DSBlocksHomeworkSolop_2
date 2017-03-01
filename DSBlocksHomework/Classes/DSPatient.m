@@ -26,23 +26,26 @@
     return self;
 }
 
-- (BOOL) iFeelGoodMyself {
-    BOOL tempValue;
-    if (!self.headache || !self.soreThroat || !self.inflammation){
-        tempValue = FALSE;
-    }else{
-        tempValue = TRUE;
-    }
-    NSLog(@"%@ %@ feels %@ his self", [self class], self.name, tempValue ? @"GOOD" : @"BAD");
-    return tempValue;
+- (BOOL)iFeelGoodMyself {
+//    BOOL tempValue;
+    return !self.headache && !self.soreThroat && !self.inflammation;
+//    
+//    if (!self.headache || !self.soreThroat || !self.inflammation){
+//        tempValue = FALSE;
+//    }else{
+//        tempValue = TRUE;
+//    }
+//    NSLog(@"%@ %@ feels %@ his self", [self class], self.name, tempValue ? @"GOOD" : @"BAD");
+//    return tempValue;
 }
 
 - (void) takePainkiller:(Medications) painkiller {
     NSLog(@"%@ %@ takes painkiller", [self class], self.name);
+    
      painkiller = ^{
         __weak typeof (self) weakSelf = self;
          typeof(weakSelf) __strong self = weakSelf;
-         self.headache = TRUE;
+         self.headache = YES;
     };
 }
 
@@ -57,8 +60,8 @@
 
 - (void) takeAntibiotiks:(Medications) antibiotiks{
     NSLog(@"%@ %@ takes antibiotiks", [self class], self.name);
+    __weak typeof (self) weakSelf = self;
     antibiotiks = ^{
-        __weak typeof (self) weakSelf = self;
         typeof(weakSelf) __strong self = weakSelf;
         self.inflammation = TRUE;
     };

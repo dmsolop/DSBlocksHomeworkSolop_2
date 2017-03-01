@@ -11,18 +11,18 @@
 
 @implementation DSHospital
 
-static DSHospital *sharedSingleton_ = nil;
+static DSHospital *_sharedSingleton = nil;
 
-+ (DSHospital *)sharedInstance
-{
-    if (sharedSingleton_ == nil)
-    {
-        sharedSingleton_ = [[DSHospital alloc] init];
+//Потоконебезопасно - надо через диспатч
++ (DSHospital *)sharedInstance {
+    if (_sharedSingleton == nil) {
+        _sharedSingleton = [[DSHospital alloc] init];
     }
-    return sharedSingleton_;
+    
+    return _sharedSingleton;
 }
 
-- (DSDoctor *)getDoctor{
+- (DSDoctor *)getDoctor {
     return [DSDoctor new];
 }
 
